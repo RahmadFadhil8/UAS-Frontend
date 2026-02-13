@@ -1,0 +1,870 @@
+dataProduct = [
+    {
+        id: 1,
+        price: 19.99,
+        title: "Wireless Mouse",
+        description: "A high-precision wireless mouse with ergonomic design.",
+        images: [
+            "https://i.pinimg.com/564x/44/64/7d/44647da3a31bd33cb5cc2939268c9e6b.jpg"
+        ],
+        shop: {
+            id: 101,
+            name: "Tech Store"
+        },
+        discount_percentage: 10
+    },
+    {
+        id: 2,
+        price: 25.99,
+        title: "Laptop Stand",
+        description: "Adjustable laptop stand for better posture.",
+        images: [
+            "https://i.pinimg.com/236x/96/c8/a3/96c8a35216496401bfbcd70958d386a9.jpg"
+        ],
+        shop: {
+            id: 101,
+            name: "Tech Store"
+        },
+        discount_percentage: 5
+    },
+    {
+        id: 3,
+        price: 15.99,
+        title: "USB-C Cable",
+        description: "Durable USB-C to USB-A cable.",
+        images: [
+            "https://i.pinimg.com/736x/90/94/6f/90946f549c1bcdef2215f1336be92d20.jpg"
+        ],
+        shop: {
+            id: 101,
+            name: "Tech Store"
+        },
+        discount_percentage: 10
+    },
+    {
+        id: 4,
+        price: 49.99,
+        title: "Portable SSD",
+        description: "Fast and compact portable SSD.",
+        images: [
+            "https://i.pinimg.com/236x/37/ee/fb/37eefb4ff6ca3254319a583d879dc69e.jpg"
+        ],
+        shop: {
+            id: 101,
+            name: "Tech Store"
+        },
+        discount_percentage: 15
+    },
+    {
+        id: 5,
+        price: 89.99,
+        title: "Smartphone Gimbal",
+        description: "3-axis gimbal for smartphone ido stabilization.",
+        images: [
+            "https://i.pinimg.com/474x/07/c4/72/07c47293e3958101d013ab88c48f8cd7.jpg"
+        ],
+        shop: {
+            id: 101,
+            name: "Tech Store"
+        },
+        discount_percentage: 20
+    },
+    {
+        id: 6,
+        price: 69.99,
+        title: "Noise Cancelling Headphones",
+        description: "Over-ear noise cancelling headphones.",
+        images: [
+            "https://i.pinimg.com/236x/88/ef/91/88ef9149210e1293f6df99d4032fc523.jpg"
+        ],
+        shop: {
+            id: 101,
+            name: "Tech Store"
+        },
+        discount_percentage: 15
+    },
+    {
+        id: 7,
+        price: 19.99,
+        title: "Bluetooth Adapter",
+        description: "USB Bluetooth 5.0 adapter.",
+        images: [
+            "https://i.pinimg.com/236x/7f/3e/a1/7f3ea18c76285ca86fdf6865e730347b.jpg"
+        ],
+        shop: {
+            id: 101,
+            name: "Tech Store"
+        },
+        discount_percentage: 10
+    },
+    {
+        id: 8,
+        price: 34.99,
+        title: "Webcam Cover",
+        description: "Privacy webcam cover for laptops and desktops.",
+        images: [
+            "https://i.pinimg.com/736x/79/37/f5/7937f5cd0b58f112cdfa85f2763a1240.jpg"
+        ],
+        shop: {
+            id: 101,
+            name: "Tech Store"
+        },
+        discount_percentage: 5
+    },
+    {
+        id: 9,
+        price: 99.99,
+        title: "Mechanical Keyboard",
+        description: "A mechanical keyboard with customizable RGB lighting.",
+        images: [
+            "https://i.pinimg.com/236x/79/20/c9/7920c9ccbc5afeeae4ab214fccd4297c.jpg"
+        ],
+        shop: {
+            id: 102,
+            name: "Keyboard World"
+        },
+        discount_percentage: 15
+    },
+    {
+        id: 10,
+        price: 59.99,
+        title: "Gaming Keyboard",
+        description: "Mechanical gaming keyboard with macro keys.",
+        images: [
+            "https://i.pinimg.com/236x/ca/d2/10/cad210e790351a57e4f5834d83340f4e.jpg"
+        ],
+        shop: {
+            id: 102,
+            name: "Keyboard World"
+        },
+        discount_percentage: 20
+    },
+    {
+        id: 11,
+        price: 49.99,
+        title: "Ergonomic Keyboard",
+        description: "Split ergonomic keyboard for better posture.",
+        images: [
+            "https://i.pinimg.com/736x/44/dd/1a/44dd1a1b42456ff3a3a3423a47568f4e.jpg"
+        ],
+        shop: {
+            id: 102,
+            name: "Keyboard World"
+        },
+        discount_percentage: 10
+    },
+    {
+        id: 12,
+        price: 89.99,
+        title: "Wireless Mechanical Keyboard",
+        description: "Wireless mechanical keyboard with long battery life.",
+        images: [
+            "https://i.pinimg.com/564x/6a/ac/d6/6aacd6eb16c6b87d32f64bfc68c7b3b4.jpg"
+        ],
+        shop: {
+            id: 102,
+            name: "Keyboard World"
+        },
+        discount_percentage: 5
+    },
+    {
+        id: 13,
+        price: 79.99,
+        title: "Compact Mechanical Keyboard",
+        description: "Compact mechanical keyboard with red switches.",
+        images: [
+            "https://i.pinimg.com/564x/be/13/44/be134422ef5c1a0deeefc1f5bd26cf49.jpg"
+        ],
+        shop: {
+            id: 102,
+            name: "Keyboard World"
+        },
+        discount_percentage: 10
+    },
+    {
+        id: 14,
+        price: 49.99,
+        title: "RGB Keyboard",
+        description: "RGB backlit keyboard with customizable lighting.",
+        images: [
+            "https://i.pinimg.com/564x/de/cf/d4/decfd4f0ad012c69e5fd5d0a61f24fe3.jpg"
+        ],
+        shop: {
+            id: 102,
+            name: "Keyboard World"
+        },
+        discount_percentage: 15
+    },
+    {
+        id: 15,
+        price: 109.99,
+        title: "Low-Profile Mechanical Keyboard",
+        description: "Low-profile mechanical keyboard with quiet keys.",
+        images: [
+            "https://i.pinimg.com/564x/e6/6c/b6/e66cb6cc5d020c995e617f24c994bd88.jpg"
+        ],
+        shop: {
+            id: 102,
+            name: "Keyboard World"
+        },
+        discount_percentage: 20
+    },
+    {
+        id: 16,
+        price: 139.99,
+        title: "Custom Mechanical Keyboard",
+        description: "Customizable mechanical keyboard with hot-swappable switches.",
+        images: [
+            "https://i.pinimg.com/564x/28/19/8b/28198b1559692e14657052ab1bbe5d94.jpg"
+        ],
+        shop: {
+            id: 102,
+            name: "Keyboard World"
+        },
+        discount_percentage: 25
+    },
+    {
+        id: 17,
+        price: 49.99,
+        title: "Bluetooth Speaker",
+        description: "A portable Bluetooth speaker with superior sound quality.",
+        images: [
+            "https://i.pinimg.com/236x/60/30/89/60308937fcae1682faea26f4ac3d5c27.jpg"
+        ],
+        shop: {
+            id: 103,
+            name: "Sound Hub"
+        },
+        discount_percentage: 5
+    },
+    {
+        id: 18,
+        price: 59.99,
+        title: "Smart Speaker",
+        description: "Voice-controlled smart speaker with great sound.",
+        images: [
+            "https://i.pinimg.com/236x/0e/15/36/0e1536b5d8694098633ac18b06f8701a.jpg"
+        ],
+        shop: {
+            id: 103,
+            name: "Sound Hub"
+        },
+        discount_percentage: 10
+    },
+    {
+        id: 19,
+        price: 129.99,
+        title: "Home Theater System",
+        description: "5.1 surround sound home theater system.",
+        images: [
+            "https://i.pinimg.com/564x/d5/e8/15/d5e81531ce2427f9d51c39d3b1e9f108.jpg"
+        ],
+        shop: {
+            id: 103,
+            name: "Sound Hub"
+        },
+        discount_percentage: 15
+    },
+    {
+        id: 20,
+        price: 199.99,
+        title: "Soundbar",
+        description: "High-quality soundbar with subwoofer.",
+        images: [
+            "https://i.pinimg.com/236x/98/d0/91/98d09168275bd1d7f1dc6af91a6eaef5.jpg"
+        ],
+        shop: {
+            id: 103,
+            name: "Sound Hub"
+        },
+        discount_percentage: 20
+    },
+    {
+        id: 21,
+        price: 79.99,
+        title: "Portable PA System",
+        description: "Portable PA system with wireless microphone.",
+        images: [
+            "https://i.pinimg.com/236x/95/38/bf/9538bff624a8731e12d981571e89d024.jpg"
+        ],
+        shop: {
+            id: 103,
+            name: "Sound Hub"
+        },
+        discount_percentage: 5
+    },
+    {
+        id: 22,
+        price: 29.99,
+        title: "Wireless Earphones",
+        description: "In-ear wireless earphones with good bass.",
+        images: [
+            "https://i.pinimg.com/236x/e1/19/07/e11907adee2e3690212426274c8f4894.jpg"
+        ],
+        shop: {
+            id: 103,
+            name: "Sound Hub"
+        },
+        discount_percentage: 10
+    },
+    {
+        id: 23,
+        price: 99.99,
+        title: "Noise Cancelling Earbuds",
+        description: "Earbuds with active noise cancelling technology.",
+        images: [
+            "https://i.pinimg.com/236x/15/db/fd/15dbfd0081280e91cadf925f9e9fac7b.jpg"
+        ],
+        shop: {
+            id: 103,
+            name: "Sound Hub"
+        },
+        discount_percentage: 15
+    },
+    {
+        id: 24,
+        price: 149.99,
+        title: "Wireless Speaker System",
+        description: "Multi-room wireless speaker system.",
+        images: [
+            "https://i.pinimg.com/236x/f7/10/97/f71097a1ae5963e54b2016b6704a59d1.jpg"
+        ],
+        shop: {
+            id: 103,
+            name: "Sound Hub"
+        },
+        discount_percentage: 20
+    },
+    {
+        id: 25,
+        price: 29.99,
+        title: "USB-C Hub",
+        description: "A versatile USB-C hub with multiple ports for connectivity.",
+        images: [
+            "https://i.pinimg.com/236x/47/7a/45/477a454d78e85b626f249537182c4495.jpg"
+        ],
+        shop: {
+            id: 104,
+            name: "Accessory Depot"
+        },
+        discount_percentage: 20
+    },
+    {
+        id: 26,
+        price: 15.99,
+        title: "USB Flash Drive",
+        description: "32GB USB 3.0 flash drive.",
+        images: [
+            "https://i.pinimg.com/236x/ae/10/39/ae1039f55debb8913dd732c42412517f.jpg"
+        ],
+        shop: {
+            id: 104,
+            name: "Accessory Depot"
+        },
+        discount_percentage: 5
+    },
+    {
+        id: 27,
+        price: 25.99,
+        title: "Memory Card Reader",
+        description: "All-in-one memory card reader.",
+        images: [
+            "https://i.pinimg.com/236x/af/6c/95/af6c95e3bbdc301ee86c0840f61c6c7c.jpg"
+        ],
+        shop: {
+            id: 104,
+            name: "Accessory Depot"
+        },
+        discount_percentage: 10
+    },
+    {
+        id: 28,
+        price: 29.99,
+        title: "Wireless Charger",
+        description: "Qi wireless charger for smartphones.",
+        images: [
+            "https://i.pinimg.com/236x/4d/51/44/4d5144d057938deeff68c63eb74410cc.jpg"
+        ],
+        shop: {
+            id: 104,
+            name: "Accessory Depot"
+        },
+        discount_percentage: 15
+    },
+    {
+        id: 29,
+        price: 49.99,
+        title: "Power Bank",
+        description: "20000mAh power bank with fast charging.",
+        images: [
+            "https://i.pinimg.com/236x/1e/1e/76/1e1e768d4b89af8e0dcb68b6b471323f.jpg"
+        ],
+        shop: {
+            id: 104,
+            name: "Accessory Depot"
+        },
+        discount_percentage: 20
+    },
+    {
+        id: 30,
+        price: 19.99,
+        title: "Cable Organizer",
+        description: "Magnetic cable organizer for desks.",
+        images: [
+            "https://i.pinimg.com/236x/d8/60/eb/d860ebdb050d90867eb28dc1a12fdf90.jpg"
+        ],
+        shop: {
+            id: 104,
+            name: "Accessory Depot"
+        },
+        discount_percentage: 5
+    },
+    {
+        id: 31,
+        price: 14.99,
+        title: "Laptop Sleeve",
+        description: "Protective laptop sleeve for 13-inch laptops.",
+        images: [
+            "https://i.pinimg.com/236x/dc/f4/8e/dcf48e51bfafa6063c6adacad049e0aa.jpg"
+        ],
+        shop: {
+            id: 104,
+            name: "Accessory Depot"
+        },
+        discount_percentage: 10
+    },
+    {
+        id: 32,
+        price: 34.99,
+        title: "Tablet Stand",
+        description: "Adjustable stand for tablets and e-readers.",
+        images: [
+            "https://i.pinimg.com/236x/c0/0b/b5/c00bb5ee261ea9a9e40f455c1d958eee.jpg"
+        ],
+        shop: {
+            id: 104,
+            name: "Accessory Depot"
+        },
+        discount_percentage: 15
+    },
+    {
+        id: 33,
+        price: 59.99,
+        title: "Gaming Headset",
+        description: "A comfortable gaming headset with noise-cancelling microphone.",
+        images: [
+            "https://i.pinimg.com/236x/c4/74/66/c474665f43cf45344db7d899f21a2711.jpg"
+        ],
+        shop: {
+            id: 105,
+            name: "Gamer's Paradise"
+        },
+        discount_percentage: 25
+    },
+    {
+        id: 34,
+        price: 79.99,
+        title: "Gaming Chair",
+        description: "Ergonomic gaming chair with lumbar support.",
+        images: [
+            "https://i.pinimg.com/236x/49/98/ee/4998ee75592de8c620bfe0ec4ee8dc69.jpg"
+        ],
+        shop: {
+            id: 105,
+            name: "Gamer's Paradise"
+        },
+        discount_percentage: 20
+    },
+    {
+        id: 35,
+        price: 129.99,
+        title: "Gaming Monitor",
+        description: "27-inch gaming monitor with 144Hz refresh rate.",
+        images: [
+            "https://i.pinimg.com/236x/2f/0c/0c/2f0c0ca9de3c26613032d35398ce869a.jpg"
+        ],
+        shop: {
+            id: 105,
+            name: "Gamer's Paradise"
+        },
+        discount_percentage: 15
+    },
+    {
+        id: 36,
+        price: 59.99,
+        title: "Gaming Mouse",
+        description: "High-DPI gaming mouse with customizable buttons.",
+        images: [
+            "https://i.pinimg.com/236x/87/16/e2/8716e27672e9f735a2c33588ce7da72d.jpg"
+        ],
+        shop: {
+            id: 105,
+            name: "Gamer's Paradise"
+        },
+        discount_percentage: 10
+    },
+    {
+        id: 37,
+        price: 49.99,
+        title: "Gaming Mouse Pad",
+        description: "Large gaming mouse pad with RGB lighting.",
+        images: [
+            "https://i.pinimg.com/736x/57/8d/08/578d087e3a54327692cf4563949d2f26.jpg"
+        ],
+        shop: {
+            id: 105,
+            name: "Gamer's Paradise"
+        },
+        discount_percentage: 5
+    },
+    {
+        id: 38,
+        price: 99.99,
+        title: "Streaming Webcam",
+        description: "1080p streaming webcam with ring light.",
+        images: [
+            "https://i.pinimg.com/236x/52/3f/ed/523feddd66a55eddefd1ba574e2bf35d.jpg"
+        ],
+        shop: {
+            id: 105,
+            name: "Gamer's Paradise"
+        },
+        discount_percentage: 20
+    },
+    {
+        id: 39,
+        price: 119.99,
+        title: "VR Headset",
+        description: "Virtual reality headset with motion controllers.",
+        images: [
+            "https://i.pinimg.com/236x/5c/e9/72/5ce9729bd7ae21ee062af113a2a1fd1d.jpg"
+        ],
+        shop: {
+            id: 105,
+            name: "Gamer's Paradise"
+        },
+        discount_percentage: 25
+    },
+    {
+        id: 40,
+        price: 29.99,
+        title: "Game Controller",
+        description: "Wireless game controller for PC and console.",
+        images: [
+            "https://i.pinimg.com/236x/24/0d/5f/240d5fc78eed97cb5f53322cf10789fc.jpg"
+        ],
+        shop: {
+            id: 105,
+            name: "Gamer's Paradise"
+        },
+        discount_percentage: 10
+    },
+    {
+        id: 41,
+        price: 79.99,
+        title: "Smartwatch",
+        description: "A stylish smartwatch with health tracking features.",
+        images: [
+            "https://i.pinimg.com/236x/0b/2b/ed/0b2bedcddfbf2560e70a84e95d046f72.jpg"
+        ],
+        shop: {
+            id: 106,
+            name: "Watch Store"
+        },
+        discount_percentage: 10
+    },
+    {
+        id: 42,
+        price: 99.99,
+        title: "Fitness Tracker",
+        description: "Advanced fitness tracker with heart rate monitor.",
+        images: [
+            "https://i.pinimg.com/236x/11/48/07/11480714ced8f2d4f417fb371211a997.jpg"
+        ],
+        shop: {
+            id: 106,
+            name: "Watch Store"
+        },
+        discount_percentage: 15
+    },
+    {
+        id: 43,
+        price: 149.99,
+        title: "Luxury Smartwatch",
+        description: "High-end smartwatch with premium materials.",
+        images: [
+            "https://i.pinimg.com/236x/b0/ba/d2/b0bad2a11cd127eafc258d5960a3fd33.jpg"
+        ],
+        shop: {
+            id: 106,
+            name: "Watch Store"
+        },
+        discount_percentage: 20
+    },
+    {
+        id: 44,
+        price: 59.99,
+        title: "HybidSmartwatch",
+        description: "Hybidsmartwatch with traditional watch hands.",
+        images: [
+            "https://i.pinimg.com/236x/9a/9d/c0/9a9dc04671dc8df72391a91f435da501.jpg"
+        ],
+        shop: {
+            id: 106,
+            name: "Watch Store"
+        },
+        discount_percentage: 10
+    },
+    {
+        id: 45,
+        price: 79.99,
+        title: "ids Smartwatch",
+        description: "Smartwatch designed for id with parental controls.",
+        images: [
+            "https://i.pinimg.com/236x/83/6f/e8/836fe8bcbe2f077b23b71729354292cc.jpg"
+        ],
+        shop: {
+            id: 106,
+            name: "Watch Store"
+        },
+        discount_percentage: 5
+    },
+    {
+        id: 46,
+        price: 199.99,
+        title: "GPS Smartwatch",
+        description: "Smartwatch with built-in GPS for tracking runs.",
+        images: [
+            "https://i.pinimg.com/236x/87/3b/b9/873bb954d6b02d8a7ebd3715064caf5a.jpg"
+        ],
+        shop: {
+            id: 106,
+            name: "Watch Store"
+        },
+        discount_percentage: 15
+    },
+    {
+        id: 47,
+        price: 249.99,
+        title: "Diving Smartwatch",
+        description: "Smartwatch designed for underwater activities.",
+        images: [
+            "https://i.pinimg.com/236x/37/66/03/3766032ab011e2f5c63f8a1e431a44a6.jpg"
+        ],
+        shop: {
+            id: 106,
+            name: "Watch Store"
+        },
+        discount_percentage: 20
+    },
+    {
+        id: 48,
+        price: 99.99,
+        title: "Classic Smartwatch",
+        description: "Smartwatch with classic design and smart features.",
+        images: [
+            "https://i.pinimg.com/236x/63/9e/68/639e68e262ecfecab49475ec0df82498.jpg"
+        ],
+        shop: {
+            id: 106,
+            name: "Watch Store"
+        },
+        discount_percentage: 10
+    },
+    {
+        id: 49,
+        price: 39.99,
+        title: "External Hard Drive",
+        description: "A 1TB external hard drive with fast data transfer speeds.",
+        images: [
+            "https://i.pinimg.com/236x/e1/d9/3d/e1d93d3033f39b29a0d5f8f83fe8e5ea.jpg"
+        ],
+        shop: {
+            id: 107,
+            name: "Storage Solutions"
+        },
+        discount_percentage: 5
+    },
+    {
+        id: 50,
+        price: 69.99,
+        title: "SSD External Drive",
+        description: "500GB SSD external drive with high-speed data transfer.",
+        images: [
+            "https://i.pinimg.com/236x/47/a7/71/47a771b822ba631310df15691a8f35c5.jpg"
+        ],
+        shop: {
+            id: 107,
+            name: "Storage Solutions"
+        },
+        discount_percentage: 10
+    },
+    {
+        id: 51,
+        price: 89.99,
+        title: "Network Attached Storage",
+        description: "2-bay NAS for home and small office use.",
+        images: [
+            "https://i.pinimg.com/236x/12/ef/30/12ef308feaecc2e583fdc23b293bfaf1.jpg"
+        ],
+        shop: {
+            id: 107,
+            name: "Storage Solutions"
+        },
+        discount_percentage: 15
+    },
+    {
+        id: 52,
+        price: 129.99,
+        title: "Portable SSD",
+        description: "1TB portable SSD with USB 3.1 interface.",
+        images: [
+            "https://i.pinimg.com/236x/4d/3c/13/4d3c13b254b216069ef949d8386ed9d7.jpg"
+        ],
+        shop: {
+            id: 107,
+            name: "Storage Solutions"
+        },
+        discount_percentage: 20
+    },
+    {
+        id: 53,
+        price: 39.99,
+        title: "USB Flash Drive Set",
+        description: "Set of 3 USB 3.0 flash drives (32GB each).",
+        images: [
+            "https://i.pinimg.com/236x/d7/50/9c/d7509cd412b9eb7c2d2c301aa78785c4.jpg"
+        ],
+        shop: {
+            id: 107,
+            name: "Storage Solutions"
+        },
+        discount_percentage: 10
+    },
+    {
+        id: 54,
+        price: 79.99,
+        title: "Wireless Backup Drive",
+        description: "Wireless backup drive for automatic backups.",
+        images: [
+            "https://i.pinimg.com/236x/c8/e5/2b/c8e52b33fac3ea0ea4db4bb2e8c413e8.jpg"
+        ],
+        shop: {
+            id: 107,
+            name: "Storage Solutions"
+        },
+        discount_percentage: 15
+    },
+    {
+        id: 55,
+        price: 49.99,
+        title: "Secure USB Drive",
+        description: "USB drive with hardware encryption.",
+        images: [
+            "https://i.pinimg.com/236x/46/6f/1a/466f1a6430450c9185945d7c077c471f.jpg"
+        ],
+        shop: {
+            id: 107,
+            name: "Storage Solutions"
+        },
+        discount_percentage: 20
+    },
+    {
+        id: 56,
+        price: 19.99,
+        title: "Memory Card",
+        description: "128GB microSD memory card with adapter.",
+        images: [
+            "https://i.pinimg.com/236x/d9/c6/84/d9c6840fdb0e27379b67bec3b92fd2ad.jpg"
+        ],
+        shop: {
+            id: 107,
+            name: "Storage Solutions"
+        },
+        discount_percentage: 5
+    },
+    {
+        id: 57,
+        price: 89.99,
+        title: "HD Webcam",
+        description: "A high-definition webcam with built-in microphone.",
+        images: [
+            "https://i.pinimg.com/236x/fc/20/ec/fc20ecf8ae7bf1cccd5d5a9e2beccf81.jpg"
+        ],
+        shop: {
+            id: 108,
+            name: "Camera World"
+        },
+        discount_percentage: 15
+    },
+    {
+        id: 58,
+        price: 149.99,
+        title: "Digital Camera",
+        description: "Compact digital camera with 20MP sensor.",
+        images: [
+            "https://i.pinimg.com/564x/42/7c/d1/427cd12d96412a380e4a42d88aa080af.jpg"
+        ],
+        shop: {
+            id: 108,
+            name: "Camera World"
+        },
+        discount_percentage: 10
+    },
+    {
+        id: 59,
+        price: 89.99,
+        title: "Webcam for Streaming",
+        description: "HD webcam designed for streaming with autofocus.",
+        images: [
+            "https://i.pinimg.com/236x/6d/58/42/6d5842de9fda7c7f7dc5ca9a36bca4a3.jpg"
+        ],
+        shop: {
+            id: 108,
+            name: "Camera World"
+        },
+        discount_percentage: 5
+    },
+    {
+        id: 60,
+        price: 299.99,
+        title: "DSLR Camera",
+        description: "Entry-level DSLR camera with 18-55mm lens.",
+        images: [
+            "https://i.pinimg.com/236x/2d/20/69/2d2069a5332cb09e70e1a023f71c6ed7.jpg"
+        ],
+        shop: {
+            id: 108,
+            name: "Camera World"
+        },
+        discount_percentage: 15
+    },
+    {
+        id: 61,
+        price: 49.99,
+        title: "Camera Tripod",
+        description: "Lightweight and portable camera tripod.",
+        images: [
+            "https://i.pinimg.com/236x/02/a7/59/02a759d894b5e56a004578a0685a8a18.jpg"
+        ],
+        shop: {
+            id: 108,
+            name: "Camera World"
+        },
+        discount_percentage: 10
+    },
+    {
+        id: 62,
+        price: 69.99,
+        title: "Action Camera",
+        description: "Waterproof action camera with 4K recording.",
+        images: [
+            "https://i.pinimg.com/236x/c9/5c/3f/c95c3fffe4a8fd20d458d143dca66ff6.jpg"
+        ],
+        shop: {
+            id: 108,
+            name: "Camera World"
+        },
+        discount_percentage: 20
+    }
+]

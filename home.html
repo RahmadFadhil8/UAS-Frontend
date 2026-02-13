@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <title>Home</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="p-5 bg-white shadow flex items-center justify-between flex-wrap">
+      <div class="flex items-center justify-between w-full md:w-auto">
+        <span class="font-bold text-3xl cursor-pointer">EazyBuy</span>
+        <div class="flex items-center space-x-4 md:hidden">
+          <a href="Cart.html" id="cart-notification"><i class="bx bx-cart text-3xl text-black"></i></a>
+          <a href="#"><img src="https://i.pinimg.com/564x/a9/af/86/a9af86761b4d3b191282b9b0ae8bad1b.jpg" alt="" class="rounded-full w-10" /></a>
+        </div>
+      </div>
+      <div class="hidden md:flex items-center space-x-4">
+        <a href="Cart.html" id="cart-notification"><i class="bx bx-cart text-3xl text-black"></i></a>
+        <a href="#"><img src="https://i.pinimg.com/564x/a9/af/86/a9af86761b4d3b191282b9b0ae8bad1b.jpg" alt="" class="rounded-full w-10" /></a>
+      </div>
+    </nav>
+    <!-- navbar -->
+    <div class="flex justify-center items-center py-5">
+      <input type="search" id="searchInput" onkeyup="search()" class="border-gray-200 border-2 py-2 px-4 text-sm shadow-sm focus:outline-none focus:border-blue-500 placeholder-gray-400 w-96 rounded-l-lg" placeholder="Search" />
+      <i class="bx bx-search-alt text-2xl bg-purple-600 py-1 px-4 rounded-r-lg"></i>
+    </div>
+    <div class="flex mx-4">
+      <div class="h-96 w-1/2 bg-no-repeat bg-cover border-solid border-2 border-slate-100 rounded-l-lg" style="background-image: url('https://i.pinimg.com/564x/e9/6d/60/e96d60a631af72853b47f0860109b79c.jpg')"></div>
+      <div class="h-96 w-1/2 bg-no-repeat bg-cover border-solid border-2 border-slate-100 rounded-r-lg" style="background-image: url('https://i.pinimg.com/564x/f0/f9/e4/f0f9e45724771f16745ad3f6f640d3ce.jpg')"></div>
+    </div>
+    <div>
+      <h1 class="mx-4 mt-4 font-bold text-2xl">Flash Sale</h1>
+      <div class="mx-4 h-1 w-20 bg-orange-600"></div>
+    </div>
+
+    <ul id="ProductList" class="mt-4 mb-4 grid sm:grid-cols-2 lg:grid-cols-5"></ul>
+
+    <div>
+      <h1 class="mx-4 mt-8 font-bold text-2xl">Store</h1>
+      <div class="mx-4 h-1 w-7 bg-orange-600"></div>
+    </div>
+
+    <div class="flex m-4 items-center justify-center" id="storeButtons">
+      <button class="text-white bg-purple-600 text-base px-3 py-1 mx-3 rounded-md hover:bg-purple-700 text-center add-to-cart" data-category="Tech Store">Tech Store</button>
+      <button class="text-white bg-purple-600 text-base px-3 py-1 mx-3 rounded-md hover:bg-purple-700 text-center add-to-cart" data-category="Keyboard World">Keyboard World</button>
+      <button class="text-white bg-purple-600 text-base px-3 py-1 mx-3 rounded-md hover:bg-purple-700 text-center add-to-cart" data-category="Sound Hub">Sound Hub</button>
+      <button class="text-white bg-purple-600 text-base px-3 py-1 mx-3 rounded-md hover:bg-purple-700 text-center add-to-cart" data-category="Accessory Depot">Accessory Depot</button>
+      <button class="text-white bg-purple-600 text-base px-3 py-1 mx-3 rounded-md hover:bg-purple-700 text-center add-to-cart" data-category="Gamer's Paradise">Gamer's Paradise</button>
+      <button class="text-white bg-purple-600 text-base px-3 py-1 mx-3 rounded-md hover:bg-purple-700 text-center add-to-cart" data-category="Watch Store">Watch Store</button>
+      <button class="text-white bg-purple-600 text-base px-3 py-1 mx-3 rounded-md hover:bg-purple-700 text-center add-to-cart" data-category="Storage Solutions">Storage Solutions</button>
+      <button class="text-white bg-purple-600 text-base px-3 py-1 mx-3 rounded-md hover:bg-purple-700 text-center add-to-cart" data-category="Camera World">Camera World</button>
+    </div>
+
+    <ul id="resultToko" class="mt-4 mb-4 grid sm:grid-cols-2 lg:grid-cols-5"></ul>
+
+    <footer>
+      <p class="flex justify-center items-center p-9 bg-purple-900 text-white mt-4 shadow-xl">Copyright &copy; 2024 - <a href="#" target="blank">231111932 - Rahmad Fadhil</a></p>
+    </footer>
+    
+    <script src="js/product.js"></script>
+    <script src="js/tampilanCard.js"></script>
+  </body>
+</html>
